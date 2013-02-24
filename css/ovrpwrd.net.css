@@ -63,6 +63,7 @@ body[style] {
 
 a {
   color: #ffffff;
+  text-decoration: inherit;
 }
 
 a:hover,
@@ -141,6 +142,16 @@ h4 small {
 
 table {
   border-collapse: inherit;
+}
+
+.table-striped tbody > tr:nth-child(odd) > td,
+.table-striped tbody > tr:nth-child(odd) > th {
+  background-color: inherit;
+}
+
+.table-hover tbody tr:hover > td,
+.table-hover tbody tr:hover > th {
+  background-color: inherit;
 }
 
 .dropdown-menu > li > a {
@@ -327,6 +338,7 @@ table {
 
 .navbar-inverse .brand,
 .navbar-inverse .nav > li > a {
+  color: rgb(235, 235, 235);
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   font-size: 25px;
 }
