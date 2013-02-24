@@ -6252,11 +6252,11 @@ a.badge:focus {
   text-decoration: underline;
 }
  
-.table tbody tr {
-  background-color: #573322
+.table tbody tr td {
+  background-color: #573322;
 }
  
-.table thead tr {
+.table thead tr th {
   background-color: #ECEBE5;
   background-image: -moz-linear-gradient(top, #fefefe, #dad8cb);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fefefe), to(#dad8cb));
