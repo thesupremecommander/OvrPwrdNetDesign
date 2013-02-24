@@ -410,6 +410,22 @@ table {
   text-decoration: underline;
 }
 
+.warning {
+  color: #c09853;
+}
+
+.success {
+  color: #468847;
+}
+
+.error {
+  color: #b94a48;
+}
+
+.info {
+  color: #3a87ad;
+}
+
 .table tbody tr td {
   background-color: #573322;
 }
