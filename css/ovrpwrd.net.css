@@ -6257,9 +6257,16 @@ a.badge:focus {
 }
  
 .table thead tr {
+  background-color: #ECEBE5;
   background-image: -moz-linear-gradient(top, #fefefe, #dad8cb);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fefefe), to(#dad8cb));
   background-image: -webkit-linear-gradient(top, #fefefe, #dad8cb);
   background-image: -o-linear-gradient(top, #fefefe, #dad8cb);
   background-image: linear-gradient(to bottom, #fefefe, #dad8cb);
+  color: rgb(51, 51, 51);
+}
+
+.well > .nav-list {
+  margin-top: -6px;
+  margin-bottom: 0px;
 }
