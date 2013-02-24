@@ -427,7 +427,7 @@ table {
 }
 
 .table tbody tr td {
-  background-color: #573322;
+  background-color: #573322 !important;
 }
 
 .table thead tr th {
