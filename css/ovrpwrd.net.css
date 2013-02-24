@@ -136,6 +136,11 @@ h4 small {
 
 .form-actions {
   background-color: #3f2319;
+  border-top: inherit;
+}
+
+table {
+  border-collapse: inherit;
 }
 
 .dropdown-menu > li > a {
@@ -168,9 +173,13 @@ h4 small {
 .well {
   padding: 5px 0px;
   background-color: #fff;
+  border: inherit;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
+  -webkit-box-shadow: inherit;
+     -moz-box-shadow: inherit;
+          box-shadow: inherit;
   font-size: 20px;
   font-family: TF2Build;
 }
@@ -182,6 +191,7 @@ h4 small {
 
 .nav > li > a:hover,
 .nav > li > a:focus {
+  text-decoration: inherit;
   color: #ffffff;
   background-color: transparent;
 }
@@ -195,10 +205,24 @@ h4 small {
 .nav-header {
   padding: 3px 20px;
   font-size: 20px;
+  font-weight: inherit;
   color: rgb(51, 51, 51);
   text-shadow: none;
   margin-top: 6px;
   margin-bottom: 6px
+}
+
+.nav-list {
+  padding-right: inherit;
+  padding-left: inherit;
+  margin-bottom: inherit;
+}
+
+.nav-list > li > a,
+.nav-list .nav-header {
+  margin-right: inherit;
+  margin-left: inherit;
+  text-shadow: inherit;
 }
 
 .nav-list > li > a {
@@ -224,6 +248,7 @@ h4 small {
 .nav-list > .active > a:hover,
 .nav-list > .active > a:focus {
   text-decoration: none;
+  text-shadow: inherit;
   background-color: #0081c2;
   background-image: -moz-linear-gradient(top, #73432d, #663c28);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#73432d), to(#663c28));
@@ -245,14 +270,31 @@ h4 small {
   padding-right: 20px;
   padding-left: 20px;
   *zoom: 1;
+  background-color: inherit;
+  background-image: inherit;
+  background-repeat: inherit;
+  border: inherit;
+  -webkit-border-radius: inherit;
+     -moz-border-radius: inherit;
+          border-radius: inherit;
+  filter: inherit;
+  -webkit-box-shadow: inherit;
+     -moz-box-shadow: inherit;
+          box-shadow: inherit;
 }
 
 .navbar-fixed-top,
 .navbar-fixed-bottom {
+  position: inherit;
   right: 0;
   left: 0;
   z-index: 1030;
   margin-bottom: 0;
+}
+
+.navbar-fixed-top .navbar-inner,
+.navbar-static-top .navbar-inner {
+  border-width: inherit;
 }
 
 .navbar-fixed-bottom {
@@ -277,6 +319,7 @@ h4 small {
   background-image: -webkit-linear-gradient(top, #73432d, #4e2e1f);
   background-image: -o-linear-gradient(top, #73432d, #4e2e1f);
   background-image: linear-gradient(to bottom, #73432d, #4e2e1f);
+  border-color: inherit;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff73432d', endColorstr='#ff4e2e1f', GradientType=0);
   border-top: 1px solid #2b1811;
   border-bottom: 1px solid #2b1811;
