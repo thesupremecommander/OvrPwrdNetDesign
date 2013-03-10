@@ -485,3 +485,18 @@ table tr.error a:hover {
 table tr.success a:hover, table tr.info a:hover, table tr.warning a:hover, table tr.error a:hover {
   text-decoration: none;
 }
+
+span.info-separator {
+  color: #ffffff;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+span.info-association, span.info-association a {
+  color: #ffffff;
+}
+
+span.info-association a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
