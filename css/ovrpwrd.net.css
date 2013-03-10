@@ -474,6 +474,14 @@ table tr.warning a:hover {
   color: #d3d093;
 }
 
+table tr.error, table tr.error a {
+  color: #f2a5a5;
+}
+
+table tr.error a:hover {
+  color: #da8282;
+}
+
 table tr.success a:hover, table tr.info a:hover, table tr.warning a:hover {
   text-decoration: none;
 }
