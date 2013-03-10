@@ -492,11 +492,11 @@ span.info-separator {
   margin-right: -4px;
 }
 
-span.info-association, span.info-association a {
+span.info-association, span.info-association a, span.info-organization {
   color: #ffffff;
 }
 
 span.info-association a:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(235, 235, 235);
   text-decoration: none;
 }
