@@ -445,3 +445,35 @@ table {
   margin-top: -6px;
   margin-bottom: 0px;
 }
+
+div.page-header p {
+  margin: 0px;
+}
+
+table tr.success, table tr.success a {
+  color: #bff2b8;
+}
+
+table tr.success a:hover {
+  color: #96be90
+}
+
+table tr.info, table tr.info a {
+  color: #b9b8f2;
+}
+
+table tr.info a:hover {
+  color: #a1a0d2;
+}
+
+table tr.warning, table tr.warning a {
+  color: #f2eea9;
+}
+
+table tr.warning a:hover {
+  color: #d3d093;
+}
+
+table tr.success a:hover, table tr.info a:hover, table tr.warning a:hover {
+  text-decoration: none;
+}
