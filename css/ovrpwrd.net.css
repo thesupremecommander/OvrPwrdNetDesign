@@ -482,6 +482,6 @@ table tr.error a:hover {
   color: #da8282;
 }
 
-table tr.success a:hover, table tr.info a:hover, table tr.warning a:hover {
+table tr.success a:hover, table tr.info a:hover, table tr.warning a:hover, table tr.error a:hover {
   text-decoration: none;
 }
