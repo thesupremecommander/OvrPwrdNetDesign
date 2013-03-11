@@ -501,3 +501,50 @@ span.info-association a:hover {
   color: rgb(235, 235, 235);
   text-decoration: none;
 }
+
+.table-custom {
+  border-radius: 6px;
+  border-color: #ffffff;
+  border-collapse: collapse;
+}
+
+.table-custom thead tr th {
+  background-color: #ffffff;
+  color: rgb(51, 51, 51);
+  padding: 8px;
+  line-height: 20px;
+}
+
+.table-custom tbody tr td {
+  background-color: rgb(87, 51, 34);
+  padding: 8px;
+  line-height: 20px;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.table-custom tbody tr:first-child {
+  border-left: none;
+}
+
+.table-custom tbody tr:last-child {
+  border-right: none;
+}
+
+.table-custom tbody tr {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.table-cusom tbody:first-child {
+  border-top: none;
+}
+
+.table-custom tbody:last-child {
+  border-bottom: none;
+}
+
+.table-custom-light th, .table-custom-light td {
+  padding: 4px 5px;
+}
+  
